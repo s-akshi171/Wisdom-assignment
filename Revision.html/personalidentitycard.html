@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    background: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #f68065;
+    box-shadow: 0 0 0 3px rgba(246, 128, 101, 0.2);
+}
+
+/* Validation Styling */
+input:required:valid {
+    border-color: #38a169;
+}
+
+input[type="radio"] {
+    accent-color: #f68065;
+    margin-right: 4px;
+    margin-left: 10px;
+    transform: scale(1.1);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+input[type="submit"] {
+    background: #f68065;
+    color: #fff;
+    margin-right: 2%;
+}
+
+input[type="reset"] {
+    background: #edf2f7;
+    color: #4a5568;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+    </style>
+    <title>Personal  Identity Card</title>
+</head>
+<body>
+    <h1>My Digital Identity Card</h1>
+    <img src="WhatsApp Image 2026-07-29 at 10.53.02 AM.jpeg" alt="My Photo" width="120">
+
+    <h2>Sakshi Satish Kadam</h2>
+    <p>Hello! I am a Final Year Student interested in Full Stack Development.</p>
+
+    <h3>Personal Information</h3>
+    <p>Name: sakshi satish kadam</p>
+    <p>Course: B.Tech </p>
+    <p>College: SVERI's College Of Engineering ,Pandharpur</p>
+
+    <h3>Contact Information</h3>
+    <p>Email: sakshiskadam0@gmail.com</p>
+    <p>Phone: 9881794653</p>
+
+    <h3>My Links</h3>
+    <a href="https://www.linkedin.com">LinkedIn</a><br>
+    <a href="https://www.github.com">GitHub</a>
+</body>
+</html>
